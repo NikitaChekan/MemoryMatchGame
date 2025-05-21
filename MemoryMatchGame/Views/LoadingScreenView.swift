@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LoadingView: View {
+struct LoadingScreenView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +20,5 @@ struct LoadingView: View {
 }
 
 #Preview {
-    LoadingView()
+    LoadingScreenView()
 }
