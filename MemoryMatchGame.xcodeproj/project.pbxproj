@@ -8,19 +8,55 @@
 
 /* Begin PBXBuildFile section */
 		DA5C773E2DDB3F65004EF2A2 /* MemoryMatchGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C773D2DDB3F65004EF2A2 /* MemoryMatchGameApp.swift */; };
-		DA5C77402DDB3F65004EF2A2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C773F2DDB3F65004EF2A2 /* LoadingView.swift */; };
+		DA5C77402DDB3F65004EF2A2 /* LoadingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C773F2DDB3F65004EF2A2 /* LoadingScreenView.swift */; };
 		DA5C77422DDB3F66004EF2A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA5C77412DDB3F66004EF2A2 /* Assets.xcassets */; };
 		DA5C77452DDB3F66004EF2A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA5C77442DDB3F66004EF2A2 /* Preview Assets.xcassets */; };
 		DA5C77502DDB41D1004EF2A2 /* LoadingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C774F2DDB41D1004EF2A2 /* LoadingScene.swift */; };
+		DA5C77522DDB4427004EF2A2 /* LoadingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C77512DDB4427004EF2A2 /* LoadingAnimationView.swift */; };
+		DA5C77562DDCC899004EF2A2 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C77552DDCC899004EF2A2 /* MainMenuView.swift */; };
+		DA5C77582DDCD32E004EF2A2 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C77572DDCD32E004EF2A2 /* GameView.swift */; };
+		DA5C775B2DDCD42B004EF2A2 /* SafariHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C775A2DDCD42B004EF2A2 /* SafariHelper.swift */; };
+		DA5C77782DDDE5A7004EF2A2 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C77772DDDE5A7004EF2A2 /* Card.swift */; };
+		DA5C777B2DDDE63D004EF2A2 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C777A2DDDE63D004EF2A2 /* GameManager.swift */; };
+		DA5C777D2DDDE681004EF2A2 /* GameScane.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C777C2DDDE681004EF2A2 /* GameScane.swift */; };
+		DA5C777F2DDDF204004EF2A2 /* GameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C777E2DDDF204004EF2A2 /* GameBoardView.swift */; };
+		DAC55F9F2DDE06A80095218E /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC55F9C2DDE06A70095218E /* win.mp3 */; };
+		DAC55FA02DDE06A80095218E /* flip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC55F9D2DDE06A80095218E /* flip.mp3 */; };
+		DAC55FA12DDE06A80095218E /* match.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAC55F9E2DDE06A80095218E /* match.mp3 */; };
+		DAC55FA32DDE09B50095218E /* VibrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC55FA22DDE09B50095218E /* VibrationManager.swift */; };
+		DAC55FA52DDE0BD30095218E /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC55FA42DDE0BD30095218E /* SoundManager.swift */; };
+		DAC55FA72DDE16280095218E /* BottomButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC55FA62DDE16280095218E /* BottomButtonsView.swift */; };
+		DAC55FA92DDE24240095218E /* MeterPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC55FA82DDE24240095218E /* MeterPanelView.swift */; };
+		DAC55FAB2DDE2AD80095218E /* WinGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC55FAA2DDE2AD80095218E /* WinGameView.swift */; };
+		DAC55FAD2DDF3DB70095218E /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC55FAC2DDF3DB70095218E /* NotificationsView.swift */; };
+		DAC55FAF2DDF47F00095218E /* SettingsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC55FAE2DDF47F00095218E /* SettingsButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DA5C773A2DDB3F65004EF2A2 /* MemoryMatchGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryMatchGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5C773D2DDB3F65004EF2A2 /* MemoryMatchGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryMatchGameApp.swift; sourceTree = "<group>"; };
-		DA5C773F2DDB3F65004EF2A2 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		DA5C773F2DDB3F65004EF2A2 /* LoadingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreenView.swift; sourceTree = "<group>"; };
 		DA5C77412DDB3F66004EF2A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA5C77442DDB3F66004EF2A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DA5C774F2DDB41D1004EF2A2 /* LoadingScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScene.swift; sourceTree = "<group>"; };
+		DA5C77512DDB4427004EF2A2 /* LoadingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAnimationView.swift; sourceTree = "<group>"; };
+		DA5C77552DDCC899004EF2A2 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		DA5C77572DDCD32E004EF2A2 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		DA5C775A2DDCD42B004EF2A2 /* SafariHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariHelper.swift; sourceTree = "<group>"; };
+		DA5C77772DDDE5A7004EF2A2 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		DA5C777A2DDDE63D004EF2A2 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		DA5C777C2DDDE681004EF2A2 /* GameScane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScane.swift; sourceTree = "<group>"; };
+		DA5C777E2DDDF204004EF2A2 /* GameBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardView.swift; sourceTree = "<group>"; };
+		DAC55F9C2DDE06A70095218E /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		DAC55F9D2DDE06A80095218E /* flip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flip.mp3; sourceTree = "<group>"; };
+		DAC55F9E2DDE06A80095218E /* match.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = match.mp3; sourceTree = "<group>"; };
+		DAC55FA22DDE09B50095218E /* VibrationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrationManager.swift; sourceTree = "<group>"; };
+		DAC55FA42DDE0BD30095218E /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		DAC55FA62DDE16280095218E /* BottomButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomButtonsView.swift; sourceTree = "<group>"; };
+		DAC55FA82DDE24240095218E /* MeterPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeterPanelView.swift; sourceTree = "<group>"; };
+		DAC55FAA2DDE2AD80095218E /* WinGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinGameView.swift; sourceTree = "<group>"; };
+		DAC55FAC2DDF3DB70095218E /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		DAC55FAE2DDF47F00095218E /* SettingsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +90,12 @@
 			isa = PBXGroup;
 			children = (
 				DA5C773D2DDB3F65004EF2A2 /* MemoryMatchGameApp.swift */,
+				DA5C77792DDDE5F0004EF2A2 /* Managers */,
+				DA5C77762DDDE4D3004EF2A2 /* Models */,
 				DA5C774B2DDB412A004EF2A2 /* Views */,
 				DA5C774C2DDB4180004EF2A2 /* SKScenes */,
+				DA5C77592DDCD390004EF2A2 /* Helpers */,
+				DA5C77802DDDF90C004EF2A2 /* Resources */,
 				DA5C77412DDB3F66004EF2A2 /* Assets.xcassets */,
 				DA5C77432DDB3F66004EF2A2 /* Preview Content */,
 			);
@@ -73,7 +113,16 @@
 		DA5C774B2DDB412A004EF2A2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DA5C773F2DDB3F65004EF2A2 /* LoadingView.swift */,
+				DA5C773F2DDB3F65004EF2A2 /* LoadingScreenView.swift */,
+				DA5C77512DDB4427004EF2A2 /* LoadingAnimationView.swift */,
+				DA5C77552DDCC899004EF2A2 /* MainMenuView.swift */,
+				DA5C77572DDCD32E004EF2A2 /* GameView.swift */,
+				DA5C777E2DDDF204004EF2A2 /* GameBoardView.swift */,
+				DAC55FA82DDE24240095218E /* MeterPanelView.swift */,
+				DAC55FA62DDE16280095218E /* BottomButtonsView.swift */,
+				DAC55FAA2DDE2AD80095218E /* WinGameView.swift */,
+				DAC55FAC2DDF3DB70095218E /* NotificationsView.swift */,
+				DAC55FAE2DDF47F00095218E /* SettingsButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -82,8 +131,45 @@
 			isa = PBXGroup;
 			children = (
 				DA5C774F2DDB41D1004EF2A2 /* LoadingScene.swift */,
+				DA5C777C2DDDE681004EF2A2 /* GameScane.swift */,
 			);
 			path = SKScenes;
+			sourceTree = "<group>";
+		};
+		DA5C77592DDCD390004EF2A2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DA5C775A2DDCD42B004EF2A2 /* SafariHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DA5C77762DDDE4D3004EF2A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA5C77772DDDE5A7004EF2A2 /* Card.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DA5C77792DDDE5F0004EF2A2 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				DA5C777A2DDDE63D004EF2A2 /* GameManager.swift */,
+				DAC55FA22DDE09B50095218E /* VibrationManager.swift */,
+				DAC55FA42DDE0BD30095218E /* SoundManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		DA5C77802DDDF90C004EF2A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DAC55F9D2DDE06A80095218E /* flip.mp3 */,
+				DAC55F9E2DDE06A80095218E /* match.mp3 */,
+				DAC55F9C2DDE06A70095218E /* win.mp3 */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +230,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAC55F9F2DDE06A80095218E /* win.mp3 in Resources */,
+				DAC55FA12DDE06A80095218E /* match.mp3 in Resources */,
+				DAC55FA02DDE06A80095218E /* flip.mp3 in Resources */,
 				DA5C77452DDB3F66004EF2A2 /* Preview Assets.xcassets in Resources */,
 				DA5C77422DDB3F66004EF2A2 /* Assets.xcassets in Resources */,
 			);
@@ -156,9 +245,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA5C77402DDB3F65004EF2A2 /* LoadingView.swift in Sources */,
+				DAC55FAD2DDF3DB70095218E /* NotificationsView.swift in Sources */,
+				DA5C77562DDCC899004EF2A2 /* MainMenuView.swift in Sources */,
+				DA5C777B2DDDE63D004EF2A2 /* GameManager.swift in Sources */,
+				DAC55FA32DDE09B50095218E /* VibrationManager.swift in Sources */,
+				DA5C777D2DDDE681004EF2A2 /* GameScane.swift in Sources */,
+				DAC55FA52DDE0BD30095218E /* SoundManager.swift in Sources */,
+				DA5C777F2DDDF204004EF2A2 /* GameBoardView.swift in Sources */,
+				DAC55FAF2DDF47F00095218E /* SettingsButtonView.swift in Sources */,
+				DA5C775B2DDCD42B004EF2A2 /* SafariHelper.swift in Sources */,
+				DAC55FA72DDE16280095218E /* BottomButtonsView.swift in Sources */,
+				DA5C77402DDB3F65004EF2A2 /* LoadingScreenView.swift in Sources */,
 				DA5C77502DDB41D1004EF2A2 /* LoadingScene.swift in Sources */,
+				DAC55FA92DDE24240095218E /* MeterPanelView.swift in Sources */,
+				DA5C77522DDB4427004EF2A2 /* LoadingAnimationView.swift in Sources */,
+				DA5C77582DDCD32E004EF2A2 /* GameView.swift in Sources */,
 				DA5C773E2DDB3F65004EF2A2 /* MemoryMatchGameApp.swift in Sources */,
+				DA5C77782DDDE5A7004EF2A2 /* Card.swift in Sources */,
+				DAC55FAB2DDE2AD80095218E /* WinGameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,8 +402,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +412,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Nikita-Chekan.MemoryMatchGame";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -327,8 +435,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,9 +445,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Nikita-Chekan.MemoryMatchGame";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

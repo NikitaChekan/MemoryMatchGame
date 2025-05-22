@@ -8,8 +8,27 @@
 import SwiftUI
 
 struct MeterPanelView: View {
+    
+    @ObservedObject var gameManager = GameManager()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Image("meterPanel")
+                .resizable()
+                .scaledToFill()
+                .padding(5)
+                .frame(maxWidth: .infinity, maxHeight: 30)
+                .clipped()
+            
+            HStack {
+                Text("MOVIES: \(gameManager.moves)")
+                Spacer()
+                Text("TIME: \(gameManager.timeString)")
+            }
+            .bold()
+            .foregroundColor(.white)
+            .padding(.horizontal, 65)
+        }
     }
 }
 

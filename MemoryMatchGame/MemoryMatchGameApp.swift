@@ -9,9 +9,22 @@ import SwiftUI
 
 @main
 struct MemoryMatchGameApp: App {
+    @State private var isLoading = true
+    
     var body: some Scene {
         WindowGroup {
-            LoadingView()
+            if isLoading {
+                LoadingScreenView()
+                    .statusBar(hidden: true)
+                    .onAppear {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                            isLoading = false
+                        }
+                    }
+            } else {
+                MainMenuView()
+                    .statusBar(hidden: true)
+            }
         }
     }
 }

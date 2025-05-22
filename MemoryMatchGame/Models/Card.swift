@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct Card: Identifiable, Equatable {
+    let id: Int
+    let imageName: String
+    var isFlipped: Bool = false
+    var isMatched: Bool = false
+}

@@ -7,21 +7,29 @@
 
 import UIKit
 
-class HapticManager {
-    static let shared = HapticManager()
+class VibrationManager {
+    
+    static let shared = VibrationManager()
+    private var isVibrationEnabled = true
     
     func impact() {
+        guard isVibrationEnabled else { return }
         let generator = UIImpactFeedbackGenerator(style: .medium)
         generator.impactOccurred()
     }
     
     func success() {
+        guard isVibrationEnabled else { return }
         let generator = UINotificationFeedbackGenerator()
         generator.notificationOccurred(.success)
     }
     
-    func error() {
-        let generator = UINotificationFeedbackGenerator()
-        generator.notificationOccurred(.error)
+    func toggleVibration() {
+        isVibrationEnabled.toggle()
     }
+    
+    func resetToEnabled() {
+        isVibrationEnabled = true
+    }
+    
 }
