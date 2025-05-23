@@ -19,7 +19,6 @@ struct GameBoardView: UIViewRepresentable {
         
         let scene = GameScene(size: UIScreen.main.bounds.size)
         scene.scaleMode = .aspectFill
-        
         scene.gameManager = gameManager
         
         skView.presentScene(scene)
@@ -29,7 +28,6 @@ struct GameBoardView: UIViewRepresentable {
     func updateUIView(_ uiView: SKView, context: Context) {
         if let scene = uiView.scene as? GameScene {
             scene.gameManager = gameManager
-            scene.updateCardsState()
         }
     }
 }

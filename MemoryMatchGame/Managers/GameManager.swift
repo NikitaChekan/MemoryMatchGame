@@ -69,14 +69,13 @@ class GameManager: ObservableObject {
                 VibrationManager.shared.success()
                 
                 checkWin()
-                firstFlippedIndex = nil
             } else {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                     self.cards[firstIndex].isFlipped = false
                     self.cards[index].isFlipped = false
-                    self.firstFlippedIndex = nil
                 }
             }
+            firstFlippedIndex = nil
         } else {
             firstFlippedIndex = index
         }

@@ -75,8 +75,8 @@ struct MainMenuView: View {
                     }
                     
                     Spacer()
-                        .frame(height: 100)
                 }
+                .offset(y: 180)
             }
             .navigationDestination(isPresented: $showGameView) {
                 GameView()

@@ -71,7 +71,7 @@ struct NotificationsView: View {
                     .font(.headline)
                     .foregroundColor(.gray)
                 }
-                .padding(.bottom, 100)
+                .padding(.bottom, 40)
                 .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
             }
         }
