@@ -34,7 +34,7 @@ struct GameView: View {
                     BottomButtonsView(gameManager: gameManager, dismiss: { dismiss() })
                         .padding(.top, 50)
                 }
-                .offset(y: 20)
+                .offset(y: 10)
             }
 
             if gameManager.isWin {
@@ -44,7 +44,7 @@ struct GameView: View {
                 WinGameView(gameManager: gameManager, dismiss: { dismiss() })
             }
             
-            //Проверка экрана WINVIEW
+//            Проверка экрана WINVIEW
 //            Button("WIN") {
 //                gameManager.isWin = true
 //            }
